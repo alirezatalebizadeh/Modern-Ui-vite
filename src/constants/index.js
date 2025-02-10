@@ -78,9 +78,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "تولید کننده عکس",
+  "افزایش دهنده کیفیت عکس",
+  "چت با هوش مصنوعی",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,111 +94,110 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "شناسایی صدا",
+    text: "امکان فهم و پاسخ‌گویی ربات به دستورات صوتی، تا کاربران بتوانند به راحتی بدون نیاز به لمس صفحه با اپلیکیشن تعامل کنند.",
+    date: "1403 اردیبهشت",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "بازی",
+    text: "افزودن المان‌های شبیه به بازی، مانند نشان‌ها یا رتبه‌بندی‌ها، برای تشویق کاربران به استفاده بیشتر از ربات چت.",
+    date: "1403 خرداد",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "رباط شخصی سازی شده",
+    text: "امکان شخصی‌سازی ظاهر و رفتار ربات توسط کاربران، تا تجربه تعامل با ربات جذاب‌تر و سرگرم‌کننده‌تر شود.",
+    date: "1403 تیر",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "یکپارچگی با Api ها",
+    text: "چندین هوش مصنوعی قدرتمند دنیا پاسخگوی شما هستند. با اطمینان استفاده کنید.",
+    date: "1403 شهریور",
     status: "progress",
     imageUrl: roadmap4,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "با اتوماسیون هوشمند و امنیت عالی، این بهترین راه‌حل برای تیم‌هایی‌ هست که می‌خوان کارشون رو هوشمندتر انجام بدن.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "یکپارچگی بدون مشکل",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "اتوماسیون هوشمند",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "امنیت بی نظیر",
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
+    title: "فیگما",
     icon: figma,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
+    title: "نوشن",
     icon: notion,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
+    title: "دیسکورد",
     icon: discord,
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
+    title: "اسلک",
     icon: slack,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
+    title: "فتوشاپ",
     icon: photoshop,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
+    title: "پروتاپی",
     icon: protopie,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
+    title: "فریمر",
     icon: framer,
     width: 26,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
+    title: "رین دراپ",
     icon: raindrop,
     width: 38,
     height: 32,
@@ -208,35 +207,35 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "پایه",
+    description: "ربات چت هوشمند، پیشنهادات شخصی‌سازی‌شده",
+    price: "رایگان",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "ربات چت هوشمندی که می‌تواند سوالات شما را درک کند",
+      "پیشنهادات شخصی‌سازی‌شده بر اساس علایق شما",
+      "امکان استفاده از اپلیکیشن و ویژگی‌های آن بدون هیچ هزینه‌ای",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "پیشرفته",
+    description: "ربات چت پیشرفته هوشمند، پشتیبانی اولویت‌دار، داشبورد آنالیز",
+    price: "۹.۹۹ دلار",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "ربات چت پیشرفته که می‌تواند سوالات پیچیده را درک کند",
+      "داشبورد آنالیز برای پیگیری مکالمات شما",
+      "پشتیبانی اولویت‌دار برای حل سریع مشکلات",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "شرکتی",
+    description: "ربات چت سفارشی، آنالیز پیشرفته، حساب کاربری اختصاصی",
+    price: "تماس بگیرید",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "ربات چت هوشمندی که می‌تواند سوالات شما را درک کند",
+      "پیشنهادات شخصی‌سازی‌شده بر اساس علایق شما",
+      "امکان استفاده از اپلیکیشن و ویژگی‌های آن بدون هیچ هزینه‌ای",
     ],
   },
 ];
@@ -244,16 +243,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "هر سوالی بپرسید",
+    text: "به کاربران این امکان را می‌دهد تا به سرعت به سوالاتشان پاسخ پیدا کنند بدون اینکه نیاز باشد به منابع مختلف جستجو کنند.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "هر روز بهتر شوید",
+    text: "اپلیکیشن از پردازش زبان طبیعی برای درک سوالات کاربران و ارائه پاسخ‌های دقیق و مرتبط استفاده می‌کند.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +260,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "اتصال در هر جا",
+    text: "با ربات چت هوشمند از هر جایی، روی هر دستگاهی، ارتباط برقرار کنید و دسترسی و راحتی بیشتری داشته باشید.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "پاسخ سریع",
+    text: "به کاربران این امکان را می‌دهد تا به سرعت پاسخ سوالاتشان را پیدا کنند بدون اینکه نیاز باشد به منابع مختلف جستجو کنند.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +277,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "هر سوالی بپرسید",
+    text: "به کاربران این امکان را می‌دهد تا به سرعت به سوالاتشان پاسخ پیدا کنند بدون اینکه نیاز باشد به منابع مختلف جستجو کنند.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "هر روز بهتر شوید",
+    text: "اپلیکیشن از پردازش زبان طبیعی برای درک سوالات کاربران و ارائه پاسخ‌های دقیق و مرتبط استفاده می‌کند.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -297,31 +296,31 @@ export const benefits = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
+    title: "دیسکورد",
     iconUrl: discordBlack,
     url: "#",
   },
   {
     id: "1",
-    title: "Twitter",
+    title: "توییتر",
     iconUrl: twitter,
     url: "#",
   },
   {
     id: "2",
-    title: "Instagram",
+    title: "اینستاگرام",
     iconUrl: instagram,
     url: "#",
   },
   {
     id: "3",
-    title: "Telegram",
+    title: "تلگرام",
     iconUrl: telegram,
     url: "#",
   },
   {
     id: "4",
-    title: "Facebook",
+    title: "فیسبوک",
     iconUrl: facebook,
     url: "#",
   },

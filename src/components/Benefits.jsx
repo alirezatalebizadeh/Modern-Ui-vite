@@ -33,10 +33,10 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code text-xs font-bold text-[#FFFFFF] uppercase tracking-wider">
-                    Explore more
+                  <p className="ml-auto mr-2 font-code text-xs font-bold text-[#FFFFFF] uppercase tracking-wider">
+                    ادامه مطلب
                   </p>
-                  <Arrow />
+                  <Arrow className="rotate-180"/>
                 </div>
               </div>
 
@@ -46,7 +46,7 @@ const Benefits = () => {
                 className="absolute inset-0.5 bg-[#0E0C15]"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <div className="absolute inset-0 opacity-25 transition-opacity hover:opacity-50">
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}

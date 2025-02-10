@@ -31,10 +31,10 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-[#0E0C15]/90 lg:backdrop-blur-sm ${openNavigation ? "bg-[#0E0C15]" : "bg-[#0E0C15]/90 backdrop-blur-sm ltr"
+      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-[#0E0C15]/90 lg:backdrop-blur-sm ${openNavigation ? "bg-[#0E0C15]" : "bg-[#0E0C15]/90 backdrop-blur-sm "
         }`}
     >
-      <div className={`flex items-center justify-between w-full px-5 py-2 lg:px-7.5 xl:px-10 max-lg:py-4"`}>
+      <div className={`flex flex-row-reverse items-center justify-between w-full px-5 py-2 lg:px-7.5 xl:px-10 max-lg:py-4`}>
         <a className="block w-[12rem] xl:ml-8" href="#hero">
           <img src={brainwave} width={190} height={40} alt="Brainwave" />
         </a>
@@ -64,23 +64,26 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <a
-          href="#signup"
-          className="button hidden mr-8 text-[#FFFFFF]/50 transition-colors hover:text-[#FFFFFF] lg:block"
-        >
-          ساخت اکانت جدید
-        </a>
-        <Button className="hidden lg:flex" href="#login">
-          ورود
-        </Button>
 
-        <Button
-          className="lg:hidden"
-          px="px-3"
-          onClick={toggleNavigation}
-        >
-          <MenuSvg openNavigation={openNavigation} />
-        </Button>
+        <div className="flex flex-row-reverse items-center gap-3">
+          <a
+            href="#signup"
+            className="button hidden mx-8 text-[#FFFFFF]/50 transition-colors hover:text-[#FFFFFF] lg:block"
+          >
+            ساخت اکانت جدید
+          </a>
+          <Button className="hidden lg:flex" href="#login">
+            ورود
+          </Button>
+
+          <Button
+            className="lg:hidden"
+            px="px-3"
+            onClick={toggleNavigation}
+          >
+            <MenuSvg openNavigation={openNavigation} />
+          </Button>
+        </div>
       </div>
     </div>
   );

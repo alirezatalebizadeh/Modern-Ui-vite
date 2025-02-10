@@ -13,7 +13,6 @@ import ButtonGradient from "./assets/svg/ButtonGradient";
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
