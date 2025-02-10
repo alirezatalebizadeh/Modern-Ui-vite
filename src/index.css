@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+@import "tailwindcss";
+
+:root {
+  --font-sora: "Sora", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.text-n-1 {
+  color: "#FFFFFF";
+}
+.text-n-2 {
+  color: "#CAC6DD";
+}
+.text-n-3 {
+  color: "#ADA8C3";
+}
+.text-n-4 {
+  color: "#757185";
+}
+.text-n-5 {
+  color: "#3F3A52";
+}
+.text-n-6 {
+  color: "#252134";
+}
+.text-n-7 {
+  color: "#15131D";
+}
+.text-n-8 {
+  color: "#0E0C15";
+}
+.text-n-9 {
+  color: "#474060";
+}
+.text-n-10 {
+  color: "#43435C";
+}
+.text-n-11 {
+  color: "#1B1B2E";
+}
+.text-n-12 {
+  color: "#2E2A41";
+}
+.text-n-13 {
+  color: "#6C7275";
+}
+
+.bg-n-1 {
+  background-color: "#FFFFFF";
+}
+.bg-n-2 {
+  background-color: "#CAC6DD";
+}
+.bg-n-3 {
+  background-color: "#ADA8C3";
+}
+.bg-n-4 {
+  background-color: "#757185";
+}
+.bg-n-5 {
+  background-color: "#3F3A52";
+}
+.bg-n-6 {
+  background-color: "#252134";
+}
+.bg-n-7 {
+  background-color: "#15131D";
+}
+.bg-n-8 {
+  background-color: "#0E0C15";
+}
+.bg-n-9 {
+  background-color: "#474060";
+}
+.bg-n-10 {
+  background-color: "#43435C";
+}
+.bg-n-11 {
+  background-color: "#1B1B2E";
+}
+.bg-n-12 {
+  background-color: "#2E2A41";
+}
+.bg-n-13 {
+  background-color: "#6C7275";
+}
+.ltr{
+  direction: ltr
+}
+
+body {
+  @apply font-sans bg-[#0E0C15]  text-base;
+  color: "#ffffff";
+  direction: rtl;
+}
+
+.rotate-45 {
+  @apply rotate-[45deg];
+}
+
+.rotate-90 {
+  @apply rotate-[90deg];
+}
+
+.rotate-135 {
+  @apply rotate-[135deg];
+}
+
+.rotate-180 {
+  @apply rotate-[180deg];
+}
+
+.rotate-225 {
+  @apply rotate-[225deg];
+}
+
+.rotate-270 {
+  @apply rotate-[270deg];
+}
+
+.rotate-315 {
+  @apply rotate-[315deg];
+}
+
+.rotate-360 {
+  @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg];
+}
