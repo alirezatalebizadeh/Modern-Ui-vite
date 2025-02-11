@@ -9,6 +9,13 @@
     </div>
 </div>
 
+
+![Capture](https://github.com/user-attachments/assets/a415d4c8-25e0-48ca-a8c9-672d44e8a9fb)
+
+![Capture1](https://github.com/user-attachments/assets/4eb46e98-b639-4d40-bc35-8cd99a8809d2)
+
+![Capture2](https://github.com/user-attachments/assets/896c4776-6197-499e-bbf7-e03e28919b33)
+
 ## 📋 <a name="table">جدول محتوا</a>
 
 1. 🤖 [توضیحات](#introduction)
