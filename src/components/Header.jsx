@@ -67,12 +67,12 @@ const Header = () => {
 
         <div className="flex flex-row-reverse items-center gap-3">
           <a
-            href="#signup"
+            href="/signup"
             className="button hidden mx-8 text-[#FFFFFF]/50 transition-colors hover:text-[#FFFFFF] lg:block"
           >
             ساخت اکانت جدید
           </a>
-          <Button className="hidden lg:flex" href="#login">
+          <Button className="hidden lg:flex" href="/login">
             ورود
           </Button>
 

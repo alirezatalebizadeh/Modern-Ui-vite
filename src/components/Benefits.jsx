@@ -11,10 +11,10 @@ const Benefits = () => {
       <div className="container relative z-2 overflow-hidden">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          title={`گفتگوی هوشمندانه تر  با برین ویو سخت نیست.`}
         />
 
-        <div className="flex justify-between flex-wrap gap-10 mb-10">
+        <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4   gap-10 mb-10">
           {benefits.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
@@ -26,18 +26,18 @@ const Benefits = () => {
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
-                <div className="flex items-center mt-auto">
+                <a href="#" className="flex items-center mt-auto cursor-pointer">
                   <img
                     src={item.iconUrl}
                     width={48}
                     height={48}
                     alt={item.title}
                   />
-                  <p className="ml-auto mr-2 font-code text-xs font-bold text-[#FFFFFF] uppercase tracking-wider">
+                  <p className="ml-auto  mr-2 font-code text-xs font-bold text-[#FFFFFF] uppercase tracking-wider">
                     ادامه مطلب
                   </p>
-                  <Arrow className="rotate-180"/>
-                </div>
+                  <Arrow className="rotate-180 cursor-pointer" />
+                </a>
               </div>
 
               {item.light && <GradientLight />}

@@ -28,8 +28,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="با مغز برتر شروع کنید"
+          title="یه بار هزینه ، یه عمر استفاده"
         />
 
         <div className="relative">
@@ -43,7 +43,7 @@ const Pricing = () => {
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
             href="/pricing"
           >
-            See the full details
+            مشاهده همه ی موارد
           </a>
         </div>
       </div>
