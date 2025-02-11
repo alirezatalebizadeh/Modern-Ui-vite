@@ -37,29 +37,32 @@ If you prefer visual learning, this is the perfect resource for you. Follow our 
 - React.js
 - Tailwind CSS
 
-## <a name="features">🔋 Features</a>
+## <a name="features">🔋 خدمات</a>
 
-👉 **Beautiful Sections**: Includes hero, services, features, how to use, roadmap, pricing, footer, and header.
+👉 **بخش‌های زیبا**: شامل بخش‌های هیرور (صفحه اصلی)، خدمات، ویژگی‌ها، نحوه استفاده، نقشه راه، قیمت‌گذاری، فوتر و هدر.
 
-👉 **Parallax Animations**: Engaging effects triggered by mouse movement and scrolling
+👉 **انیمیشن‌های پارالاکس**: افکت‌های جذابی که با حرکت موس و اسکرول کردن فعال می‌شوند.
 
-👉 **Complex UI Geometry**: Utilizes tailwindcss for intricate shapes like circular feature displays, grid lines, and side lines.
+👉 **هندسه پیچیده UI**: استفاده از tailwindcss برای طراحی اشکال پیچیده مانند نمایش ویژگی‌های دایره‌ای، خطوط شبکه و خطوط جانبی.
 
-👉 **Latest UI Trends**: Incorporates modern design elements such as bento grids.
+👉 **جدیدترین روندهای طراحی UI**: استفاده از عناصر طراحی مدرن مانند شبکه‌های بنتو.
 
-👉 **Cool Gradients**: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
+👉 **گرادیانت‌های جذاب**: بهبود جلوه‌های بصری با استفاده از گرادیانت‌های شیک با Tailwind CSS برای کارت‌ها، دکمه‌ها و غیره.
 
-👉 **Responsive**: Ensures seamless functionality and aesthetics across all devices
+👉 **ریسپانسیو**: تضمین عملکرد و زیبایی بصری بی‌وقفه در تمامی دستگاه‌ها.
 
-and many more, including code architecture and reusability
+و بسیاری ویژگی‌های دیگر، از جمله معماری کد و قابلیت استفاده مجدد.
 
-## <a name="quick-start">🤸 Quick Start</a>
+## <a name="quick-start">🤸 شروع</a>
 
-Follow these steps to set up the project locally on your machine.
+برای راه‌اندازی پروژه به‌صورت محلی روی دستگاه خود، مراحل زیر را دنبال کنید.
+
 
 **Prerequisites**
 
-Make sure you have the following installed on your machine:
+اطمینان حاصل کنید که موارد زیر روی دستگاه شما نصب شده باشد:
+
+
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
