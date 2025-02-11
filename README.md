@@ -4,7 +4,7 @@
   <h3 align="center">آموزش ساخت سایت با ظاهر مدرن</h3>
 
    <div align="center">
-     ممنونم از jsmastery بابت این آموزش🙏🌹 <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube.
+     ممنونم از jsmastery بابت این آموزش🙏🌹 <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> .
     </div>
 </div>
 
@@ -20,13 +20,13 @@
 
 ## 🚨 آموزش
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+آموزش خارجی این پروژه <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+
 
 <a href="https://youtu.be/B91wc5dCEBA" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
-## <a name="introduction">🤖 Introduction</a>
+## <a name="introduction">🤖 مقدمه</a>
 این پروژه توسعه داده شده با react , tailwind , react router dom هست. ایمدوارم بتونه توی مرحله آموزش کمکتون کنه . نکات مفیدی رو بهتون یاد بده
 
 <a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
@@ -58,7 +58,7 @@ If you prefer visual learning, this is the perfect resource for you. Follow our 
 برای راه‌اندازی پروژه به‌صورت محلی روی دستگاه خود، مراحل زیر را دنبال کنید.
 
 
-**Prerequisites**
+**پکیج ها**
 
 اطمینان حاصل کنید که موارد زیر روی دستگاه شما نصب شده باشد:
 
@@ -75,7 +75,7 @@ git clone https://github.com/JavaScript-Mastery-Pro/brainwave.git
 cd brainwave
 ```
 
-**Installation**
+**نصب**
 
 نصب همه پکیج ها با npm
 ```bash
