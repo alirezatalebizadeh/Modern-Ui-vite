@@ -37,10 +37,10 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-[#CAC6DD] lg:mb-8">
-           با مغز هوشمند بهتر با هوش مصنوعی ارتباط بگیرید . ما کمکتون میکنیم توی زمان کمتری مشکلاتتون برطرف بشه.
+            با مغز هوشمند بهتر با هوش مصنوعی ارتباط بگیرید . ما کمکتون میکنیم توی زمان کمتری مشکلاتتون برطرف بشه.
           </p>
           <Button href="/pricing" white>
-           شروع
+            شروع
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">

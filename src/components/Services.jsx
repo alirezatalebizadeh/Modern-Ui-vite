@@ -16,8 +16,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="هوش مصنوعی تولیدی برای خالقان ساخته شده است."
+          text="به کمک مغز هوشمند دستت برای ساخت هر نوع عکس خیلی بازه ."
         />
 
         <div className="relative">
@@ -26,16 +26,16 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover md:object-right"
                 width={800}
-                alt="Smartest AI"
+                alt="هوشمند ترین ai"
                 height={730}
                 src={service1}
               />
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4">هوشمند ترین ai</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                به کمک مغز هوشمند دستت برای ساخت هر نوع عکس خیلی بازه .
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -66,10 +66,10 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-[#0E0C15]/0 to-[#0E0C15]/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4">ویرایش عکس</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                  بصورت خودکار کیفیت عکس های خود را افزایش دهید . خیلی راحت تمامی ویژگی های عکس رو ویرایش کنید. <br />
+                  همین الآن امتحانش کن.
                 </p>
               </div>
 
@@ -78,10 +78,9 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">تولید ویدیو</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  میخوای یه  ویدیویی بسازی ؟ با این ابزار دستت برای ساخت هر نوع ویدیویی و ویرایش عکسی بازه .
                 </p>
 
                 <ul className="flex items-center justify-between">

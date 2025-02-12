@@ -1,12 +1,12 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-
-import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
+import { curve } from "../assets";
+
 
 const Header = () => {
   const pathname = useLocation();
@@ -35,8 +35,17 @@ const Header = () => {
         }`}
     >
       <div className={`flex flex-row-reverse items-center justify-between w-full px-5 py-2 lg:px-7.5 xl:px-10 max-lg:py-4`}>
-        <a className="block w-[12rem] xl:ml-8" href="#hero">
-          <img src={brainwave} width={190} height={40} alt="Brainwave" />
+        <a className="block w-[12rem] xl:ml-8 text-left" href="#hero">
+          <span className="inline-block relative">
+            مغز هوشمند
+            <img
+              src={curve}
+              className="absolute top-full right-0 w-full xl:-mt-2"
+              width={80}
+              height={28}
+              alt="Curve"
+            />
+          </span>
         </a>
 
         <nav
