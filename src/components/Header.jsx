@@ -36,12 +36,12 @@ const Header = () => {
     >
       <div className={`flex flex-row-reverse items-center justify-between w-full px-5 py-2 lg:px-7.5 xl:px-10 max-lg:py-4`}>
         <a className="block w-[12rem] xl:ml-8 text-left" href="#hero">
-          <span className="inline-block relative">
+          <span className="inline-block relative h6">
             مغز هوشمند
             <img
               src={curve}
               className="absolute top-full right-0 w-full xl:-mt-2"
-              width={80}
+              width={100}
               height={28}
               alt="Curve"
             />
