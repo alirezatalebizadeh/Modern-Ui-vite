@@ -23,7 +23,6 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-
             {" "}  کشف امکانات چت با هوش مصنوعی   {` `}
             <span className="inline-block relative">
               مغز هوشمند
@@ -60,7 +59,7 @@ const Hero = () => {
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
 
                 <ScrollParallax isAbsolutelyPositioned>
-                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-[#ADA8C3]/40 backdrop-blur border border-[#FFFFFF]/10 rounded-2xl xl:flex">
+                  <ul className="hidden md:flex absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-[#ADA8C3]/40 backdrop-blur border border-[#FFFFFF]/10 rounded-2xl ">
                     {heroIcons.map((icon, index) => (
                       <li className="p-5" key={index}>
                         <img src={icon} width={24} height={25} alt={icon} />
@@ -71,8 +70,8 @@ const Hero = () => {
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
-                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    className="hidden  md:flex absolute -right-[5.5rem] bottom-[11rem] w-[18rem]"
+                    title="توسعه دهنده کد..."
                   />
                 </ScrollParallax>
               </div>

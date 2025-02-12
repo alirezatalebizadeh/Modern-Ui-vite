@@ -28,7 +28,7 @@ const Header = () => {
     enablePageScroll();
     setOpenNavigation(false);
   };
-
+ 
   return (
     <div
       className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-[#0E0C15]/90 lg:backdrop-blur-sm ${openNavigation ? "bg-[#0E0C15]" : "bg-[#0E0C15]/90 backdrop-blur-sm "
