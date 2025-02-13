@@ -7,7 +7,7 @@ const Footer = () => {
     <Section crosses className="!px-0 !py-10">
       <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
         <p className="caption text-n-4 lg:block">
-          تقدیم به شما با احترام 🙏❤
+          تقدیم به شما با احترام 🙏❤ {new Date().getFullYear()}
         </p>
         <p className="caption text-n-4 lg:block">
           <a href="https://github.com/alirezatalebizadeh/Modern-Ui-vite">ادرس گیت هاب : کلیک کنید</a>
