@@ -10,7 +10,7 @@ const Pricing = () => {
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
-            src={smallSphere}
+            src={smallSphere} 
             className="relative z-1"
             width={255}
             height={255}
@@ -40,7 +40,7 @@ const Pricing = () => {
 
         <div className="flex justify-center mt-10">
           <a
-            className="text-xs font-code font-bold tracking-wider uppercase border-b"
+            className=" font-code font-bold tracking-wider uppercase border-b"
             href="/pricing"
           >
             مشاهده همه ی موارد

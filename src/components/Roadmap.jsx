@@ -13,7 +13,7 @@ const Roadmap = () => (
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
-          const status = item.status === "done" ? "Done" : "In progress";
+          const status = item.status === "done" ? "انجام شد" : "در حال بررسی ...";
 
           return (
             <div
@@ -28,7 +28,7 @@ const Roadmap = () => (
                     src={grid}
                     width={550}
                     height={550}
-                    alt="Grid"
+                    alt="grid"
                   />
                 </div>
                 <div className="relative z-1">
@@ -36,14 +36,14 @@ const Roadmap = () => (
                     <Tagline>{item.date}</Tagline>
 
                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-[#0E0C15]">
+                      <div className="tagline text-white">{status}</div>
                       <img
-                        className="mr-2.5"
+                        className="mr-2.5 text-white bg-white rounded-full"
                         src={item.status === "done" ? check2 : loading1}
                         width={16}
                         height={16}
                         alt={status}
                       />
-                      <div className="tagline">{status}</div>
                     </div>
                   </div>
 

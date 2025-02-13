@@ -17,7 +17,7 @@ export const Gradient = () => {
 
 export const PhotoChatMessage = () => {
   return (
-    <div className="absolute top-8 right-8 max-w-[17.5rem] py-6 px-8 bg-black rounded-t-xl rounded-bl-xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
+    <div className="absolute top-8 left-8 max-w-[17.5rem] py-6 px-8 bg-black rounded-t-xl rounded-bl-xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
       مغز هوشمند بهت سلام میکنه . دوست داری اولین عکستو ارتقا بدی؟
       <ChatBubbleWing className="absolute left-full bottom-0" />
     </div>
@@ -26,7 +26,7 @@ export const PhotoChatMessage = () => {
 
 export const VideoChatMessage = () => {
   return (
-    <div className="absolute top-8 left-[3.125rem] w-full max-w-[14rem] pt-2.5 pr-2.5 pb-7 pl-5 bg-n-6 rounded-t-xl rounded-br-xl font-code text-base md:max-w-[17.5rem]">
+    <div className="absolute top-8 right-[3.125rem] w-full max-w-[14rem] pt-2.5 pr-2.5 pb-7 pl-5 bg-n-6 rounded-t-xl rounded-br-xl font-code text-base md:max-w-[17.5rem]">
       ویدیو ساخته شد!
       <div className="absolute left-5 -bottom-[1.125rem] flex items-center justify-center w-[2.25rem] h-[2.25rem] bg-[#AC6AFF] rounded-[0.75rem]">
         <img
@@ -50,6 +50,11 @@ export const VideoChatMessage = () => {
 export const VideoBar = () => {
   return (
     <div className="absolute left-0 bottom-0 w-full flex items-center p-6">
+
+
+      <div className="flex-1 bg-[#D9D9D9]">
+        <div className="w-1/2 h-0.5 bg-[#AC6AFF]"></div>
+      </div>
       <img
         src={play}
         width={24}
@@ -57,10 +62,6 @@ export const VideoBar = () => {
         alt="Play"
         className="object-contain mr-3"
       />
-
-      <div className="flex-1 bg-[#D9D9D9]">
-        <div className="w-1/2 h-0.5 bg-[#AC6AFF]"></div>
-      </div>
     </div>
   );
 };

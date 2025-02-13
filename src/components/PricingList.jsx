@@ -22,10 +22,10 @@ const PricingList = () => {
             {item.price && (
               <>
                 <div className="h3 glex items-center gap-2">
-                  {index === 0 ? " " : index === 1 ? "" : index === 2 ? <a href="tel:+090300000000"><FaPhone className="size-6 text-white ml-2 cursor-pointer" /></a> : ""}
+                  {index === 0 ? " " : index === 1 ? "" : index === 2 ? "" : ""}
                 </div>
-                <div className="text-[2.4rem] leading-none font-bold">
-                  {item.price}
+                <div className="text-[2.4rem] leading-none font-bold ">
+                  {index === 2 ? <a className="flex items-center gap-1" href="tel:+090300000000"><FaPhone className="size-6 text-white ml-2 cursor-pointer" /> تماس بگیرید</a> : item.price}
                 </div>
               </>
             )}
@@ -46,7 +46,7 @@ const PricingList = () => {
                 className="flex items-start py-5 border-t border-n-6"
               >
                 <img src={check} width={24} height={24} alt="Check" />
-                <p className="body-2 ml-4">{feature}</p>
+                <p className="body-2 mr-4">{feature}</p>
               </li>
             ))}
           </ul>

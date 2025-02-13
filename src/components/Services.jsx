@@ -16,7 +16,7 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="هوش مصنوعی تولیدی برای خالقان ساخته شده است."
+          title="مغز هوشمند برای خالقان ساخته شده است."
           text="به کمک مغز هوشمند دستت برای ساخت هر نوع عکس خیلی بازه ."
         />
 
@@ -44,7 +44,7 @@ const Services = () => {
                     className="flex items-start py-4 border-t border-n-6"
                   >
                     <img width={24} height={24} src={check} />
-                    <p className="ml-4">{item}</p>
+                    <p className="mr-4">{item}</p>
                   </li>
                 ))}
               </ul>
